@@ -84,15 +84,19 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "The Legend Đà Nẵng — tổ hợp căn hộ, khách sạn 5★ & TTTM tại lô A20 Võ Văn Kiệt. CĐT VIPICO, phát triển bởi ROX Signature. Nhận bảng giá 07/2026.",
       },
       { name: "author", content: "The Legend Đà Nẵng" },
-      { property: "og:title", content: "The Legend Đà Nẵng — Biểu tượng sống bên sông Hàn" },
+      { property: "og:title", content: "The Legend Đà Nẵng — Căn hộ cao cấp ven sông Hàn | VIPICO" },
       {
         property: "og:description",
         content:
-          "Tổ hợp căn hộ – khách sạn 5★ – TTTM tại lô A20 Võ Văn Kiệt, ngay chân cầu Rồng. Sổ hồng lâu dài, CK đến 8%, cam kết thuê lại 12%/năm.",
+          "The Legend Đà Nẵng — tổ hợp căn hộ, khách sạn 5★ & TTTM tại lô A20 Võ Văn Kiệt. CĐT VIPICO, phát triển bởi ROX Signature. Nhận bảng giá 07/2026.",
       },
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "The Legend Đà Nẵng" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "The Legend Đà Nẵng — Căn hộ cao cấp ven sông Hàn | VIPICO" },
+      { name: "twitter:description", content: "The Legend Đà Nẵng — tổ hợp căn hộ, khách sạn 5★ & TTTM tại lô A20 Võ Văn Kiệt. CĐT VIPICO, phát triển bởi ROX Signature. Nhận bảng giá 07/2026." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d49c3466-8d96-4931-8f10-0c5d252d9147/id-preview-c1c9c160--ea969e88-043b-4edf-ad77-729d39aa9645.lovable.app-1783492677644.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d49c3466-8d96-4931-8f10-0c5d252d9147/id-preview-c1c9c160--ea969e88-043b-4edf-ad77-729d39aa9645.lovable.app-1783492677644.png" },
     ],
     links: [
       {
