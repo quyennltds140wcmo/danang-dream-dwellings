@@ -59,6 +59,19 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --color-royal-950: var(--royal-950);
+  --color-royal-900: var(--royal-900);
+  --color-royal-800: var(--royal-800);
+  --color-royal-700: var(--royal-700);
+  --color-royal-600: var(--royal-600);
+  --color-royal-500: var(--royal-500);
+  --color-gold-200: var(--gold-200);
+  --color-gold-300: var(--gold-300);
+  --color-gold-400: var(--gold-400);
+  --color-gold-500: var(--gold-500);
+  --color-gold-600: var(--gold-600);
+  --font-sans: "Be Vietnam Pro", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Sora", ui-sans-serif, system-ui, sans-serif;
 }
 
 :root {
@@ -95,6 +108,23 @@
   --sidebar-accent-foreground: oklch(0.208 0.042 265.755);
   --sidebar-border: oklch(0.929 0.013 255.508);
   --sidebar-ring: oklch(0.704 0.04 256.788);
+  /* Brand — The Legend Đà Nẵng */
+  --royal-950: #06154a;
+  --royal-900: #0b1f5c;
+  --royal-800: #12308a;
+  --royal-700: #1a3fb3;
+  --royal-600: #2a55d6;
+  --royal-500: #4a72e6;
+  --gold-200: #fbeec1;
+  --gold-300: #f0d891;
+  --gold-400: #e6c46a;
+  --gold-500: #c9a24b;
+  --gold-600: #a5822d;
+  --gradient-royal: linear-gradient(135deg, var(--royal-950) 0%, var(--royal-800) 55%, var(--royal-700) 100%);
+  --gradient-royal-soft: linear-gradient(180deg, #ffffff 0%, #f4f7ff 100%);
+  --gradient-gold: linear-gradient(135deg, var(--gold-500) 0%, var(--gold-300) 100%);
+  --shadow-luxury: 0 25px 60px -20px color-mix(in oklab, var(--royal-900) 45%, transparent);
+  --shadow-gold: 0 12px 30px -12px color-mix(in oklab, var(--gold-500) 55%, transparent);
 }
 
 .dark {
@@ -140,5 +170,43 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
   }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+}
+
+@utility bg-gradient-royal {
+  background-image: var(--gradient-royal);
+}
+@utility bg-gradient-gold {
+  background-image: var(--gradient-gold);
+}
+@utility text-gradient-gold {
+  background-image: var(--gradient-gold);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+@utility shadow-luxury {
+  box-shadow: var(--shadow-luxury);
+}
+@utility shadow-gold {
+  box-shadow: var(--shadow-gold);
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@utility animate-fade-up {
+  animation: fade-up 0.7s ease-out both;
+}
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
 }
