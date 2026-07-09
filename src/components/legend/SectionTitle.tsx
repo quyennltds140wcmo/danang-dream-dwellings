@@ -1,3 +1,5 @@
+import { Reveal } from "./Reveal";
+
 export function SectionTitle({
   eyebrow,
   title,
@@ -12,7 +14,7 @@ export function SectionTitle({
   invert?: boolean;
 }) {
   return (
-    <div className={`${center ? "text-center mx-auto" : ""} max-w-3xl mb-10 md:mb-14`}>
+    <Reveal className={`${center ? "text-center mx-auto" : ""} max-w-3xl mb-10 md:mb-14`}>
       <p
         className={`text-xs md:text-sm tracking-[0.3em] mb-3 ${
           invert ? "text-gold-300" : "text-royal-700"
@@ -36,6 +38,6 @@ export function SectionTitle({
           {sub}
         </p>
       )}
-    </div>
+    </Reveal>
   );
 }

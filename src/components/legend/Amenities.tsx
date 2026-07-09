@@ -15,6 +15,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { SectionTitle } from "./SectionTitle";
 import { DOCS, IMG } from "./data";
+import { Reveal } from "./Reveal";
 
 const items = [
   { icon: Waves, title: "Bể bơi vô cực 1.000m²", desc: "Sky pool tầng cao, view sông Hàn & cầu Rồng", g: "Tầng 4–5" },
@@ -54,10 +55,12 @@ export function Amenities() {
         />
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-          {items.map((it) => (
-            <div
+          {items.map((it, i) => (
+            <Reveal
               key={it.title}
-              className="group rounded-2xl border border-gold-400/20 bg-white/[0.03] p-5 hover:border-gold-400/60 hover:bg-white/[0.06] transition-all"
+              variant="up"
+              delay={i * 60}
+              className="group rounded-2xl border border-gold-400/20 bg-white/[0.03] p-5 hover:border-gold-400/60 hover:bg-white/[0.06] hover:-translate-y-1 transition-all duration-300"
             >
               <div className="w-11 h-11 rounded-xl bg-gradient-gold flex items-center justify-center text-royal-950 shadow-gold">
                 <it.icon className="w-5 h-5" />
@@ -67,7 +70,7 @@ export function Amenities() {
               </p>
               <p className="mt-1 text-sm text-white/70">{it.desc}</p>
               <p className="mt-3 text-[10px] tracking-widest text-gold-400/80">{it.g}</p>
-            </div>
+            </Reveal>
           ))}
         </div>
 
