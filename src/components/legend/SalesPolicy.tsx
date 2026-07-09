@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { SectionTitle } from "./SectionTitle";
 import { DOCS, IMG } from "./data";
+import { Reveal } from "./Reveal";
 
 const highlights = [
   { v: "8%", l: "Chiết khấu", d: "Cho khách thanh toán sớm 95% giá trị hợp đồng" },
@@ -26,27 +27,29 @@ export function SalesPolicy() {
         />
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 mb-10">
-          {highlights.map((h) => (
-            <div
+          {highlights.map((h, i) => (
+            <Reveal
               key={h.l}
-              className="relative rounded-2xl border border-gold-500/30 bg-gradient-to-br from-white to-slate-50 p-6 shadow-sm hover:shadow-luxury transition-shadow"
+              variant="up"
+              delay={i * 80}
+              className="relative rounded-2xl border border-gold-500/30 bg-gradient-to-br from-white to-slate-50 p-6 shadow-sm hover:shadow-luxury hover:-translate-y-1 transition-all duration-300"
             >
               <div className="font-display text-4xl md:text-5xl font-extrabold text-gradient-gold leading-none">
                 {h.v}
               </div>
               <p className="mt-2 font-semibold text-royal-950">{h.l}</p>
               <p className="mt-1 text-sm text-slate-600">{h.d}</p>
-            </div>
+            </Reveal>
           ))}
         </div>
 
         <div className="grid md:grid-cols-2 gap-4 md:gap-6">
-          <div className="rounded-2xl overflow-hidden border-4 border-gold-400/40 shadow-luxury bg-white">
-            <img src={IMG.csbh1} alt="Bảng chính sách bán hàng The Legend Đà Nẵng" className="w-full" />
-          </div>
-          <div className="rounded-2xl overflow-hidden border-4 border-gold-400/40 shadow-luxury bg-white">
-            <img src={IMG.csbh2} alt="Lịch thanh toán The Legend Đà Nẵng" className="w-full" />
-          </div>
+          <Reveal variant="left" className="rounded-2xl overflow-hidden border-4 border-gold-400/40 shadow-luxury bg-white group">
+            <img src={IMG.csbh1} alt="Bảng chính sách bán hàng The Legend Đà Nẵng" className="w-full transition-transform duration-700 group-hover:scale-105" />
+          </Reveal>
+          <Reveal variant="right" delay={120} className="rounded-2xl overflow-hidden border-4 border-gold-400/40 shadow-luxury bg-white group">
+            <img src={IMG.csbhEarlyBird} alt="Chính sách Early Bird The Legend Đà Nẵng — chiết khấu, tặng nội thất, hỗ trợ vay" className="w-full transition-transform duration-700 group-hover:scale-105" />
+          </Reveal>
         </div>
 
         <div className="mt-10 text-center">
