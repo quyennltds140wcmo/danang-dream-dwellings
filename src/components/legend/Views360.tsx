@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Compass } from "lucide-react";
 import { SectionTitle } from "./SectionTitle";
 import { DOCS, IMG } from "./data";
+import { Reveal } from "./Reveal";
 
 const views = [
   { img: IMG.river, title: "View sông Hàn", desc: "Sông Hàn về đêm với cầu Rồng, cầu Tình Yêu" },
@@ -25,9 +26,11 @@ export function Views360() {
         />
 
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
-          {views.map((v) => (
-            <div
+          {views.map((v, i) => (
+            <Reveal
               key={v.title}
+              variant="up"
+              delay={i * 100}
               className="group relative aspect-[3/4] overflow-hidden rounded-2xl shadow-luxury border border-gold-500/20"
             >
               <img
@@ -42,7 +45,7 @@ export function Views360() {
                 </p>
                 <p className="text-xs md:text-sm text-white/80 mt-1">{v.desc}</p>
               </div>
-            </div>
+            </Reveal>
           ))}
         </div>
 

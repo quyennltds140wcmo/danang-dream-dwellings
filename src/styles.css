@@ -210,3 +210,43 @@
   0% { background-position: -200% 0; }
   100% { background-position: 200% 0; }
 }
+
+@keyframes ken-burns {
+  0% { transform: scale(1) translate(0, 0); }
+  50% { transform: scale(1.12) translate(-1%, -1%); }
+  100% { transform: scale(1) translate(0, 0); }
+}
+@utility animate-ken-burns {
+  animation: ken-burns 14s ease-in-out infinite;
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+@utility animate-float-slow {
+  animation: float-slow 6s ease-in-out infinite;
+}
+
+/* Scroll reveal utility — element starts hidden, becomes visible when .is-visible is added */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.8s cubic-bezier(.2,.7,.2,1), transform 0.8s cubic-bezier(.2,.7,.2,1);
+  will-change: opacity, transform;
+}
+.reveal.reveal-left { transform: translateX(-32px); }
+.reveal.reveal-right { transform: translateX(32px); }
+.reveal.reveal-scale { transform: scale(0.94); }
+.reveal.is-visible {
+  opacity: 1;
+  transform: translate(0,0) scale(1);
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal, .reveal.reveal-left, .reveal.reveal-right, .reveal.reveal-scale {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .animate-ken-burns, .animate-float-slow { animation: none; }
+}
