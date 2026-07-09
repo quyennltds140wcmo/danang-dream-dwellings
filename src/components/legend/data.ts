@@ -1,5 +1,7 @@
 import logoAsset from "@/assets/legend-logo.jpg.asset.json";
 import csbhEarlyBird from "@/assets/csbh-early-bird.jpeg.asset.json";
+import csbhEarlyBirdV2 from "@/assets/csbh-early-bird-v2.jpeg.asset.json";
+import csbhPayment from "@/assets/csbh-payment.jpeg.asset.json";
 
 export const LOGO_URL = logoAsset.url;
 
@@ -24,6 +26,8 @@ export const IMG = {
   csbh2:
     "https://danang-dream-homes.lovable.app/__l5e/assets-v1/2abc0cd4-76f2-415b-aca1-bd4a80f653ef/thanh-toan.jpg",
   csbhEarlyBird: csbhEarlyBird.url,
+  csbhEarlyBirdV2: csbhEarlyBirdV2.url,
+  csbhPayment: csbhPayment.url,
   render3d:
     "https://thelegendanang.com.vn/wp-content/uploads/2025/10/the-legend-city.png",
   layoutFloor:
