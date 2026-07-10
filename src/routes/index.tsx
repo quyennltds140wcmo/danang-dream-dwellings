@@ -9,8 +9,10 @@ import { Location } from "@/components/legend/Location";
 import { Amenities } from "@/components/legend/Amenities";
 import { Views360 } from "@/components/legend/Views360";
 import { FloorPlans } from "@/components/legend/FloorPlans";
+import { Landscape } from "@/components/legend/Landscape";
 import { LeadForm } from "@/components/legend/LeadForm";
 import { SalesPolicy } from "@/components/legend/SalesPolicy";
+import { Interior3D } from "@/components/legend/Interior3D";
 import { Progress } from "@/components/legend/Progress";
 import { Legal } from "@/components/legend/Legal";
 import { WhyInvest } from "@/components/legend/WhyInvest";
@@ -19,6 +21,7 @@ import { Gallery } from "@/components/legend/Gallery";
 import { Contact } from "@/components/legend/Contact";
 import { SiteFooter } from "@/components/legend/SiteFooter";
 import { FloatingCTAs } from "@/components/legend/FloatingCTAs";
+import { NotificationPopup } from "@/components/legend/NotificationPopup";
 import { IMG } from "@/components/legend/data";
 
 export const Route = createFileRoute("/")({
@@ -66,12 +69,14 @@ function Index() {
         <Amenities />
         <Views360 />
         <FloorPlans />
+        <Landscape />
         <section className="py-16 md:py-20 bg-gradient-to-b from-white to-slate-50">
           <div className="mx-auto max-w-4xl px-4">
             <LeadForm id="dang-ky-mid" variant="dark" />
           </div>
         </section>
         <SalesPolicy />
+        <Interior3D />
         <Progress />
         <Legal />
         <WhyInvest />
@@ -81,6 +86,7 @@ function Index() {
       </main>
       <SiteFooter />
       <FloatingCTAs />
+      <NotificationPopup />
       <Toaster position="top-center" richColors />
     </div>
   );
