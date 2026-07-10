@@ -52,6 +52,26 @@ export function SalesPolicy() {
           </Reveal>
         </div>
 
+        <div className="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+          {[
+            { src: IMG.csbhExtra1, alt: "Chính sách chiết khấu The Legend Đà Nẵng" },
+            { src: IMG.csbhExtra2, alt: "Chính sách hỗ trợ vay The Legend Đà Nẵng" },
+            { src: IMG.csbhExtra3, alt: "Chính sách quà tặng The Legend Đà Nẵng" },
+            { src: IMG.csbhExtra4, alt: "Chính sách thanh toán The Legend Đà Nẵng" },
+            { src: IMG.csbhExtra5, alt: "Chính sách cam kết thuê lại The Legend" },
+            { src: IMG.csbhExtra6, alt: "Ưu đãi ngân hàng The Legend Đà Nẵng" },
+          ].map((c, i) => (
+            <Reveal
+              key={c.src}
+              variant="up"
+              delay={i * 60}
+              className="rounded-2xl overflow-hidden border border-gold-400/30 shadow-sm bg-white group"
+            >
+              <img src={c.src} alt={c.alt} loading="lazy" className="w-full transition-transform duration-700 group-hover:scale-105" />
+            </Reveal>
+          ))}
+        </div>
+
         <div className="mt-10 text-center">
           <Button
             asChild

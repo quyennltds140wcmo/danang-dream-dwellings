@@ -56,6 +56,38 @@ export const IMG = {
     "https://thelegendanang.com.vn/wp-content/uploads/2025/10/Screenshot-2025-07-13-214401.png",
   facade:
     "https://thelegendanang.com.vn/wp-content/uploads/2025/10/Screenshot-2025-07-13-214159-1.png",
+  landscape:
+    "https://thelegendcity.com/wp-content/uploads/2026/01/tien-ich-tang-tret-the-legend-da-nang-6.png-1.webp",
+  landscape2:
+    "https://thelegendcity.com/wp-content/uploads/2026/01/tien-ich-tang-3-the-legend-da-nang-10.png-2.webp",
+  amenitiesEco:
+    "https://thelegendcity.com/wp-content/uploads/2026/01/Tien-ich-can-ho-Legend-Da-Nang-The-Legend-City-Da-Nang-1.webp",
+  amenitiesEco2:
+    "https://thelegendcity.com/wp-content/uploads/2025/09/legend-city-da-nang-tien-ich-3.webp",
+  interior3d1:
+    "https://thelegendcity.com/wp-content/uploads/2025/09/Scene-17_3-1-2048x1280-1-1024x640.webp",
+  interior3d2:
+    "https://thelegendcity.com/wp-content/uploads/2025/09/Scene-9_3-2048x1280-1-1024x640.png",
+  interior3d3:
+    "https://thelegendcity.com/wp-content/uploads/2025/09/Scene-6_4-2048x1280-1-1024x640.webp",
+  interior3d4:
+    "https://thelegendcity.com/wp-content/uploads/2025/09/z6767535557752_34543d691fe4f1675bd45b337e2c3bb6-1021x1024.webp",
+  interior3d5:
+    "https://thelegendcity.com/wp-content/uploads/2025/09/z6858516913261_4a19aca8d1ea9e33a816c32879c76a40-1024x1024.webp",
+  interior3d6:
+    "https://thelegendcity.com/wp-content/uploads/2025/09/z6858517063476_1a612f5c83466cf940121d939f184cd2-1024x1024.webp",
+  csbhExtra1:
+    "https://thelegendcity.com/wp-content/uploads/2025/09/z6756812262875_c82ab9b26ffa28066689a1ef7f942f81-1024x410.webp",
+  csbhExtra2:
+    "https://thelegendcity.com/wp-content/uploads/2025/09/z6756812261682_741bf524aa5a80987110482e0bbd2b15-1024x410.webp",
+  csbhExtra3:
+    "https://thelegendcity.com/wp-content/uploads/2026/01/z6756812251550_eb2e8e87944c77d06ab39abab6f7e45a-1-1024x410.jpg",
+  csbhExtra4:
+    "https://thelegendcity.com/wp-content/uploads/2025/09/z6756812256638_c73e275df10f2b40261d57892cb4286e-1024x410.webp",
+  csbhExtra5:
+    "https://thelegendcity.com/wp-content/uploads/2025/09/z6756812250105_a413304fddc32b5ae1fd636a8beee6c6-1024x410.webp",
+  csbhExtra6:
+    "https://thelegendcity.com/wp-content/uploads/2025/09/z6756812245202_48aa96ba57bc044bc84b451f35bf5104-1024x410.webp",
 };
 
 export const DOCS = {
