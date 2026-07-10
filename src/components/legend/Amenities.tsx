@@ -11,6 +11,12 @@ import {
   BellRing,
   Cpu,
   PartyPopper,
+  Sparkles,
+  Bike,
+  Film,
+  Users,
+  Flower2,
+  Sun,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { SectionTitle } from "./SectionTitle";
@@ -30,6 +36,12 @@ const items = [
   { icon: BellRing, title: "Sảnh lễ tân 5★", desc: "Chuẩn khách sạn quốc tế, concierge", g: "Khối đế 1–3" },
   { icon: Cpu, title: "Smart Home", desc: "Điều khiển từ xa, cảm biến toàn căn", g: "Trong căn" },
   { icon: PartyPopper, title: "Ballroom 800 khách", desc: "Hội nghị & sự kiện quy mô lớn", g: "Khối đế 1–3" },
+  { icon: Sparkles, title: "Sky Infinity Pool", desc: "Hồ bơi vô cực rooftop, view sông Hàn 360°", g: "Rooftop" },
+  { icon: Bike, title: "Đường dạo & Jogging", desc: "Đường chạy bộ nội khu, khu tập yoga ngoài trời", g: "Tầng 3" },
+  { icon: Film, title: "Cinema mini cư dân", desc: "Phòng chiếu phim riêng dành cho cư dân", g: "Tầng 4–5" },
+  { icon: Users, title: "Co-working Lounge", desc: "Không gian làm việc chung, phòng họp riêng", g: "Tầng 4–5" },
+  { icon: Flower2, title: "Sky Garden", desc: "Vườn treo trên không, thư giãn giữa mây trời", g: "Tầng cao" },
+  { icon: Sun, title: "Sun Deck & BBQ", desc: "Khu tắm nắng, tiệc nướng ngoài trời cho cư dân", g: "Tầng 3" },
 ];
 
 export function Amenities() {

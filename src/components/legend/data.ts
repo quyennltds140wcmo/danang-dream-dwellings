@@ -1,4 +1,4 @@
-import logoAsset from "@/assets/legend-logo.jpg.asset.json";
+import logoAsset from "@/assets/legend-logo-v2.png.asset.json";
 import csbhEarlyBird from "@/assets/csbh-early-bird.jpeg.asset.json";
 import csbhEarlyBirdV2 from "@/assets/csbh-early-bird-v2.jpeg.asset.json";
 import csbhPayment from "@/assets/csbh-payment.jpeg.asset.json";
@@ -88,6 +88,16 @@ export const IMG = {
     "https://thelegendcity.com/wp-content/uploads/2025/09/z6756812250105_a413304fddc32b5ae1fd636a8beee6c6-1024x410.webp",
   csbhExtra6:
     "https://thelegendcity.com/wp-content/uploads/2025/09/z6756812245202_48aa96ba57bc044bc84b451f35bf5104-1024x410.webp",
+  product1br:
+    "https://thelegendcitydanang.com.vn/wp-content/uploads/2025/03/can-ho-the-legend-city-da-nang-1.jpg",
+  product1brPlus:
+    "https://thelegendcitydanang.com.vn/wp-content/uploads/2025/03/can-ho-the-legend-city-da-nang-2.jpg",
+  product2br:
+    "https://thelegendcitydanang.com.vn/wp-content/uploads/2025/03/can-ho-the-legend-city-da-nang-3.jpg",
+  product3br:
+    "https://thelegendcitydanang.com.vn/wp-content/uploads/2025/03/can-ho-the-legend-city-da-nang-5.jpg",
+  productPenthouse:
+    "https://thelegendcitydanang.com.vn/wp-content/uploads/2025/03/can-ho-the-legend-city-da-nang-6.jpg",
 };
 
 export const DOCS = {
@@ -116,6 +126,7 @@ export const NAV = [
   { href: "#tien-ich", label: "Tiện ích" },
   { href: "#view", label: "Tầm view" },
   { href: "#mat-bang", label: "Mặt bằng" },
+  { href: "#san-pham", label: "Sản phẩm" },
   { href: "#csbh", label: "Chính sách" },
   { href: "#tien-do", label: "Tiến độ" },
   { href: "#phap-ly", label: "Pháp lý" },
