@@ -9,6 +9,7 @@ import { Location } from "@/components/legend/Location";
 import { Amenities } from "@/components/legend/Amenities";
 import { Views360 } from "@/components/legend/Views360";
 import { FloorPlans } from "@/components/legend/FloorPlans";
+import { Products } from "@/components/legend/Products";
 import { Landscape } from "@/components/legend/Landscape";
 import { LeadForm } from "@/components/legend/LeadForm";
 import { SalesPolicy } from "@/components/legend/SalesPolicy";
@@ -69,6 +70,7 @@ function Index() {
         <Amenities />
         <Views360 />
         <FloorPlans />
+        <Products />
         <Landscape />
         <section className="py-16 md:py-20 bg-gradient-to-b from-white to-slate-50">
           <div className="mx-auto max-w-4xl px-4">
