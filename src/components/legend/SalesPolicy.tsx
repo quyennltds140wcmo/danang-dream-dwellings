@@ -51,7 +51,6 @@ export function SalesPolicy() {
           />
         </Reveal>
 
-
         <div className="mt-10 text-center">
           <Button
             asChild
