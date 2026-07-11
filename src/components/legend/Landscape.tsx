@@ -33,6 +33,37 @@ export function Landscape() {
           </Reveal>
         </div>
 
+        <Reveal variant="up" className="mt-8 rounded-2xl overflow-hidden border-4 border-gold-400/40 shadow-luxury bg-white group">
+          <img
+            src={IMG.hpLandscapeFloor}
+            alt="Mặt bằng tầng điển hình The Legend Đà Nẵng"
+            loading="lazy"
+            className="w-full transition-transform duration-700 group-hover:scale-[1.02]"
+          />
+          <div className="p-4 bg-gradient-royal text-white">
+            <p className="text-xs tracking-widest text-gold-300">TỔNG MẶT BẰNG</p>
+            <p className="font-display font-semibold">Mặt bằng tầng điển hình — bố trí 2 tháp</p>
+          </div>
+        </Reveal>
+
+        <div className="mt-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+          {[
+            { src: IMG.hpLandscape1, alt: "Mặt bằng cảnh quan The Legend City — góc 1" },
+            { src: IMG.hpLandscape2, alt: "Mặt bằng cảnh quan The Legend City — góc 2" },
+            { src: IMG.hpLandscape3, alt: "Mặt bằng cảnh quan The Legend City — góc 3" },
+            { src: IMG.hpLandscape4, alt: "Mặt bằng cảnh quan The Legend City — góc 4" },
+          ].map((c, i) => (
+            <Reveal
+              key={c.src}
+              variant="up"
+              delay={i * 80}
+              className="rounded-2xl overflow-hidden border border-gold-400/30 shadow-sm bg-white group"
+            >
+              <img src={c.src} alt={c.alt} loading="lazy" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+            </Reveal>
+          ))}
+        </div>
+
         <div className="mt-8 grid md:grid-cols-2 gap-6">
           <Reveal variant="up" className="rounded-2xl overflow-hidden border border-royal-900/10 shadow-sm group">
             <img src={IMG.amenitiesEco} alt="Hệ sinh thái tiện ích The Legend Đà Nẵng" loading="lazy" className="w-full transition-transform duration-700 group-hover:scale-105" />

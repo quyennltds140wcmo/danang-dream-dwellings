@@ -98,6 +98,30 @@ export const IMG = {
     "https://thelegendcitydanang.com.vn/wp-content/uploads/2025/03/can-ho-the-legend-city-da-nang-5.jpg",
   productPenthouse:
     "https://thelegendcitydanang.com.vn/wp-content/uploads/2025/03/can-ho-the-legend-city-da-nang-6.jpg",
+  csbhBigNew:
+    "https://thelegendanang.com.vn/wp-content/uploads/2025/11/CSBH_T10-1-1-2-scaled.jpg",
+  hpLandscapeFloor:
+    "https://hungphatres.vn/wp-content/uploads/2025/06/THE-LEGEND-TMB-T5-26-01-01-Large.jpg",
+  hpLandscape1:
+    "https://hungphatres.vn/wp-content/uploads/2025/06/z6764567401805_648329430942a7aa4982a0a0626b07e7.jpg",
+  hpLandscape2:
+    "https://hungphatres.vn/wp-content/uploads/2025/06/z6764564788812_d965a77e1d45bb88d5ed4c75809a9273.jpg",
+  hpLandscape3:
+    "https://hungphatres.vn/wp-content/uploads/2025/06/z6764564105403_4b2c25bc10c3a260142c295a2dd6bee8.jpg",
+  hpLandscape4:
+    "https://hungphatres.vn/wp-content/uploads/2025/06/z6764562157105_c373352ccd54da410d41025f87ed4f18.jpg",
+  bedroom1:
+    "https://hungphatres.vn/wp-content/uploads/2025/06/Scene-25_5-Large.jpg",
+  bedroom2:
+    "https://hungphatres.vn/wp-content/uploads/2025/06/Scene-26_4-Large.jpg",
+  bedroom3:
+    "https://hungphatres.vn/wp-content/uploads/2025/06/Scene-50_2-Large.jpg",
+  bedroom4:
+    "https://hungphatres.vn/wp-content/uploads/2025/06/Scene-52-Large.jpg",
+  bedroom5:
+    "https://hungphatres.vn/wp-content/uploads/2025/06/Scene-4_5-Large.jpg",
+  bedroom6:
+    "https://hungphatres.vn/wp-content/uploads/2025/06/Scene-43_1-Large.jpg",
 };
 
 export const DOCS = {

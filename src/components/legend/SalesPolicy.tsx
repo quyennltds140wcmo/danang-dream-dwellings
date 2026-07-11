@@ -43,14 +43,13 @@ export function SalesPolicy() {
           ))}
         </div>
 
-        <div className="grid md:grid-cols-2 gap-4 md:gap-6">
-          <Reveal variant="left" className="rounded-2xl overflow-hidden border-4 border-gold-400/40 shadow-luxury bg-white group">
-            <img src={IMG.csbhEarlyBirdV2} alt="Chính sách Early Bird The Legend Đà Nẵng — giá từ 116tr/m², CK 1%, tặng nội thất đến 1.8 tỷ" className="w-full transition-transform duration-700 group-hover:scale-105" />
-          </Reveal>
-          <Reveal variant="right" delay={120} className="rounded-2xl overflow-hidden border-4 border-gold-400/40 shadow-luxury bg-white group">
-            <img src={IMG.csbhPayment} alt="Phương thức thanh toán The Legend Đà Nẵng — 4 lộ trình CK 3%/6%/8%/12%" className="w-full transition-transform duration-700 group-hover:scale-105" />
-          </Reveal>
-        </div>
+        <Reveal variant="up" className="rounded-2xl overflow-hidden border-4 border-gold-400/40 shadow-luxury bg-white group">
+          <img
+            src={IMG.csbhBigNew}
+            alt="Chính sách bán hàng The Legend Đà Nẵng — bảng chính sách tổng hợp T10"
+            className="w-full transition-transform duration-700 group-hover:scale-[1.02]"
+          />
+        </Reveal>
 
         <div className="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           {[

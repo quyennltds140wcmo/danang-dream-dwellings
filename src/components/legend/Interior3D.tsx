@@ -9,6 +9,12 @@ const shots = [
   { src: IMG.interior3d4, alt: "Chi tiết nội thất căn hộ mẫu" },
   { src: IMG.interior3d5, alt: "Phòng ngủ view sông Hàn" },
   { src: IMG.interior3d6, alt: "Phòng tắm cao cấp The Legend" },
+  { src: IMG.bedroom1, alt: "Phòng ngủ 1 — căn 1PN The Legend Đà Nẵng" },
+  { src: IMG.bedroom2, alt: "Phòng ngủ master — căn 1PN view sông Hàn" },
+  { src: IMG.bedroom3, alt: "Phòng ngủ ấm cúng — căn 1PN The Legend" },
+  { src: IMG.bedroom4, alt: "Phòng ngủ cao cấp — căn 1PN The Legend" },
+  { src: IMG.bedroom5, alt: "Phòng ngủ master — căn 2PN The Legend" },
+  { src: IMG.bedroom6, alt: "Phòng ngủ phụ — căn 2PN The Legend Đà Nẵng" },
 ];
 
 export function Interior3D() {
