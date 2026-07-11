@@ -1,9 +1,18 @@
-import logoAsset from "@/assets/legend-logo-v2.png.asset.json";
+import logoAsset from "@/assets/legend-logo-v3.png.asset.json";
+import amenityPlanGround from "@/assets/amenity-plan-ground.png.asset.json";
+import amenityPlanL3 from "@/assets/amenity-plan-l3.png.asset.json";
+import amenityPlanRoof from "@/assets/amenity-plan-roof.png.asset.json";
 import csbhEarlyBird from "@/assets/csbh-early-bird.jpeg.asset.json";
 import csbhEarlyBirdV2 from "@/assets/csbh-early-bird-v2.jpeg.asset.json";
 import csbhPayment from "@/assets/csbh-payment.jpeg.asset.json";
 
 export const LOGO_URL = logoAsset.url;
+
+export const AMENITY_PLANS = {
+  ground: amenityPlanGround.url,
+  l3: amenityPlanL3.url,
+  roof: amenityPlanRoof.url,
+};
 
 export const HOTLINE = "0973.04.34.52";
 export const HOTLINE_TEL = "0973043452";
