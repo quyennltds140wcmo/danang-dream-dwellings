@@ -76,18 +76,6 @@ export const IMG = {
     "https://thelegendcity.com/wp-content/uploads/2025/09/z6858516913261_4a19aca8d1ea9e33a816c32879c76a40-1024x1024.webp",
   interior3d6:
     "https://thelegendcity.com/wp-content/uploads/2025/09/z6858517063476_1a612f5c83466cf940121d939f184cd2-1024x1024.webp",
-  csbhExtra1:
-    "https://thelegendcity.com/wp-content/uploads/2025/09/z6756812262875_c82ab9b26ffa28066689a1ef7f942f81-1024x410.webp",
-  csbhExtra2:
-    "https://thelegendcity.com/wp-content/uploads/2025/09/z6756812261682_741bf524aa5a80987110482e0bbd2b15-1024x410.webp",
-  csbhExtra3:
-    "https://thelegendcity.com/wp-content/uploads/2026/01/z6756812251550_eb2e8e87944c77d06ab39abab6f7e45a-1-1024x410.jpg",
-  csbhExtra4:
-    "https://thelegendcity.com/wp-content/uploads/2025/09/z6756812256638_c73e275df10f2b40261d57892cb4286e-1024x410.webp",
-  csbhExtra5:
-    "https://thelegendcity.com/wp-content/uploads/2025/09/z6756812250105_a413304fddc32b5ae1fd636a8beee6c6-1024x410.webp",
-  csbhExtra6:
-    "https://thelegendcity.com/wp-content/uploads/2025/09/z6756812245202_48aa96ba57bc044bc84b451f35bf5104-1024x410.webp",
   product1br:
     "https://thelegendcitydanang.com.vn/wp-content/uploads/2025/03/can-ho-the-legend-city-da-nang-1.jpg",
   product1brPlus:
