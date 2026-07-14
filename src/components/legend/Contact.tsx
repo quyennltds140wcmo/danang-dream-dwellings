@@ -25,7 +25,7 @@ export function Contact() {
               <img
                 src={LOGO_URL}
                 alt="The Legend Đà Nẵng"
-                className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover ring-2 ring-gold-400 shadow-gold"
+                className="w-24 h-24 md:w-32 md:h-32 rounded-2xl object-contain bg-royal-950 ring-2 ring-gold-400 shadow-gold"
               />
               <p className="mt-6 text-xs tracking-[0.3em] text-gold-300">NHÀ MẪU ĐÀ NẴNG</p>
               <h3 className="mt-2 font-display text-2xl md:text-3xl font-bold text-gradient-gold">

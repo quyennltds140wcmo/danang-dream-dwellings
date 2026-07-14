@@ -22,7 +22,7 @@ export function VideoHero() {
             <img
               src={LOGO_URL}
               alt="The Legend Đà Nẵng"
-              className="w-16 h-16 md:w-24 md:h-24 rounded-full object-cover ring-2 ring-gold-400 shadow-gold"
+              className="w-16 h-16 md:w-24 md:h-24 rounded-2xl object-contain bg-royal-950 ring-2 ring-gold-400 shadow-gold"
             />
             <div className="text-white">
               <p className="font-display text-xl md:text-3xl font-bold text-gradient-gold">
