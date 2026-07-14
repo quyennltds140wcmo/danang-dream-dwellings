@@ -1,4 +1,4 @@
-import logoAsset from "@/assets/legend-logo-v3.png.asset.json";
+import logoAsset from "@/assets/legend-logo-v4.jpg.asset.json";
 import amenityPlanGround from "@/assets/amenity-plan-ground.png.asset.json";
 import amenityPlanL3 from "@/assets/amenity-plan-l3.png.asset.json";
 import amenityPlanRoof from "@/assets/amenity-plan-roof.png.asset.json";
