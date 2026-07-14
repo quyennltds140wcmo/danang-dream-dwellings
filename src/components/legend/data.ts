@@ -1,6 +1,4 @@
 import logoAsset from "@/assets/legend-logo-v4.jpg.asset.json";
-import amenityPlanGround from "@/assets/amenity-plan-ground.png.asset.json";
-import amenityPlanL3 from "@/assets/amenity-plan-l3.png.asset.json";
 import amenityPlanRoof from "@/assets/amenity-plan-roof.png.asset.json";
 import csbhEarlyBird from "@/assets/csbh-early-bird.jpeg.asset.json";
 import csbhEarlyBirdV2 from "@/assets/csbh-early-bird-v2.jpeg.asset.json";
@@ -9,8 +7,6 @@ import csbhPayment from "@/assets/csbh-payment.jpeg.asset.json";
 export const LOGO_URL = logoAsset.url;
 
 export const AMENITY_PLANS = {
-  ground: amenityPlanGround.url,
-  l3: amenityPlanL3.url,
   roof: amenityPlanRoof.url,
 };
 
@@ -71,8 +67,6 @@ export const IMG = {
     "https://thelegendcity.com/wp-content/uploads/2026/01/tien-ich-tang-3-the-legend-da-nang-10.png-2.webp",
   amenitiesEco:
     "https://thelegendcity.com/wp-content/uploads/2026/01/Tien-ich-can-ho-Legend-Da-Nang-The-Legend-City-Da-Nang-1.webp",
-  amenitiesEco2:
-    "https://thelegendcity.com/wp-content/uploads/2025/09/legend-city-da-nang-tien-ich-3.webp",
   interior3d1:
     "https://thelegendcity.com/wp-content/uploads/2025/09/Scene-17_3-1-2048x1280-1-1024x640.webp",
   interior3d2:
