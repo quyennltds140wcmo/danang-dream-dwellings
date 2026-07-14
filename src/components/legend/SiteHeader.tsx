@@ -28,7 +28,7 @@ export function SiteHeader() {
           <img
             src={LOGO_URL}
             alt="Logo The Legend Đà Nẵng"
-            className="w-11 h-11 md:w-14 md:h-14 rounded-full object-cover ring-1 ring-gold-400/70 shadow-gold"
+            className="w-11 h-11 md:w-14 md:h-14 rounded-2xl object-contain bg-royal-950 ring-1 ring-gold-400/70 shadow-gold"
           />
           <div className="leading-tight">
             <p className="font-display font-bold text-base md:text-lg text-gradient-gold">
