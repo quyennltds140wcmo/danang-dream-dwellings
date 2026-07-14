@@ -64,12 +64,12 @@ export function Landscape() {
           ))}
         </div>
 
-        <div className="mt-8 grid md:grid-cols-2 gap-6">
+        <div className="mt-8 grid gap-6 max-w-5xl mx-auto">
           <Reveal variant="up" className="rounded-2xl overflow-hidden border border-royal-900/10 shadow-sm group">
-            <img src={IMG.amenitiesEco} alt="Hệ sinh thái tiện ích The Legend Đà Nẵng" loading="lazy" className="w-full transition-transform duration-700 group-hover:scale-105" />
+            <img src={IMG.amenitiesEco} alt="Hệ sinh thái tiện ích The Legend Đà Nẵng" loading="lazy" className="w-full transition-transform duration-700 group-hover:scale-[1.02]" />
           </Reveal>
           <Reveal variant="up" delay={120} className="rounded-2xl overflow-hidden border border-royal-900/10 shadow-sm group">
-            <img src={IMG.amenitiesEco2} alt="Tiện ích nội khu The Legend City" loading="lazy" className="w-full transition-transform duration-700 group-hover:scale-105" />
+            <img src={IMG.amenitiesEco2} alt="Tiện ích nội khu The Legend City" loading="lazy" className="w-full transition-transform duration-700 group-hover:scale-[1.02]" />
           </Reveal>
         </div>
 
@@ -77,25 +77,14 @@ export function Landscape() {
           <p className="text-center text-xs md:text-sm tracking-[0.25em] text-royal-900/70 mb-6">
             MẶT BẰNG TIỆN ÍCH CHI TIẾT — 3 TẦNG
           </p>
-          <div className="grid md:grid-cols-3 gap-6">
-            {[
-              { src: AMENITY_PLANS.ground, tag: "TẦNG TRỆT", desc: "Sảnh đón, lobby, retail, cảnh quan" },
-              { src: AMENITY_PLANS.l3, tag: "TẦNG 3 — PODIUM", desc: "Hồ bơi, gym, spa, kids club" },
-              { src: AMENITY_PLANS.roof, tag: "TẦNG MÁI — SKY", desc: "Sky bar, infinity pool, sky garden" },
-            ].map((c, i) => (
-              <Reveal
-                key={c.src}
-                variant="up"
-                delay={i * 100}
-                className="rounded-2xl overflow-hidden border-2 border-gold-400/40 shadow-luxury bg-white group"
-              >
-                <img src={c.src} alt={`${c.tag} — Mặt bằng tiện ích The Legend Đà Nẵng`} loading="lazy" className="w-full transition-transform duration-700 group-hover:scale-105" />
-                <div className="p-4 bg-gradient-royal text-white">
-                  <p className="text-xs tracking-widest text-gold-300">{c.tag}</p>
-                  <p className="font-display font-semibold text-sm">{c.desc}</p>
-                </div>
-              </Reveal>
-            ))}
+          <div className="grid md:grid-cols-1 gap-6 max-w-4xl mx-auto">
+            <Reveal variant="up" className="rounded-2xl overflow-hidden border-2 border-gold-400/40 shadow-luxury bg-white group">
+              <img src={AMENITY_PLANS.roof} alt="TẦNG MÁI — SKY — Mặt bằng tiện ích The Legend Đà Nẵng" loading="lazy" className="w-full transition-transform duration-700 group-hover:scale-[1.02]" />
+              <div className="p-4 bg-gradient-royal text-white">
+                <p className="text-xs tracking-widest text-gold-300">TẦNG MÁI — SKY</p>
+                <p className="font-display font-semibold text-sm">Sky bar, infinity pool, sky garden</p>
+              </div>
+            </Reveal>
           </div>
         </div>
       </div>
