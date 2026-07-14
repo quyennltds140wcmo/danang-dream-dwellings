@@ -64,12 +64,9 @@ export function Landscape() {
           ))}
         </div>
 
-        <div className="mt-8 grid gap-6 max-w-5xl mx-auto">
+        <div className="mt-8 max-w-5xl mx-auto">
           <Reveal variant="up" className="rounded-2xl overflow-hidden border border-royal-900/10 shadow-sm group">
             <img src={IMG.amenitiesEco} alt="Hệ sinh thái tiện ích The Legend Đà Nẵng" loading="lazy" className="w-full transition-transform duration-700 group-hover:scale-[1.02]" />
-          </Reveal>
-          <Reveal variant="up" delay={120} className="rounded-2xl overflow-hidden border border-royal-900/10 shadow-sm group">
-            <img src={IMG.amenitiesEco2} alt="Tiện ích nội khu The Legend City" loading="lazy" className="w-full transition-transform duration-700 group-hover:scale-[1.02]" />
           </Reveal>
         </div>
 

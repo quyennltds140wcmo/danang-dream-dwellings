@@ -67,8 +67,6 @@ export const IMG = {
     "https://thelegendcity.com/wp-content/uploads/2026/01/tien-ich-tang-3-the-legend-da-nang-10.png-2.webp",
   amenitiesEco:
     "https://thelegendcity.com/wp-content/uploads/2026/01/Tien-ich-can-ho-Legend-Da-Nang-The-Legend-City-Da-Nang-1.webp",
-  amenitiesEco2:
-    "https://thelegendcity.com/wp-content/uploads/2025/09/legend-city-da-nang-tien-ich-3.webp",
   interior3d1:
     "https://thelegendcity.com/wp-content/uploads/2025/09/Scene-17_3-1-2048x1280-1-1024x640.webp",
   interior3d2:
