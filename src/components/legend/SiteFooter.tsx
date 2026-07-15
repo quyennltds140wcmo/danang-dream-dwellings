@@ -1,20 +1,13 @@
-import { LOGO_URL, HOTLINE, HOTLINE_TEL, EMAIL, NAV } from "./data";
+import { HOTLINE, HOTLINE_TEL, EMAIL, NAV } from "./data";
 
 export function SiteFooter() {
   return (
     <footer className="bg-royal-950 text-white/80">
       <div className="mx-auto max-w-7xl px-4 py-14 grid md:grid-cols-4 gap-10">
         <div className="md:col-span-2">
-          <div className="flex items-center gap-4">
-          <img
-            src={LOGO_URL}
-            alt="The Legend Đà Nẵng"
-            className="w-16 h-16 rounded-2xl object-contain bg-royal-950 ring-2 ring-gold-400"
-          />
-            <div>
-              <p className="font-display font-bold text-xl text-gradient-gold">THE LEGEND</p>
-              <p className="text-xs tracking-[0.25em] text-gold-300/90">ĐÀ NẴNG</p>
-            </div>
+          <div>
+            <p className="font-display font-bold text-2xl text-gradient-gold tracking-wider">THE LEGEND</p>
+            <p className="text-xs tracking-[0.25em] text-gold-300/90">ĐÀ NẴNG</p>
           </div>
           <p className="mt-5 text-sm text-white/70 max-w-md leading-relaxed">
             Tổ hợp căn hộ – khách sạn 5★ – TTTM tại lô "kim cương" A20 Võ Văn Kiệt.

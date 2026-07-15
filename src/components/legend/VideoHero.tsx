@@ -1,4 +1,4 @@
-import { LOGO_URL, YT_ID } from "./data";
+import { YT_ID } from "./data";
 
 export function VideoHero() {
   const src = `https://www.youtube.com/embed/${YT_ID}?autoplay=1&mute=1&loop=1&playlist=${YT_ID}&controls=0&modestbranding=1&rel=0&playsinline=1&showinfo=0&iv_load_policy=3`;
@@ -18,20 +18,13 @@ export function VideoHero() {
         <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-royal-950/90 to-transparent pointer-events-none" />
 
         <div className="absolute inset-x-0 bottom-0 px-4 pb-6 md:pb-10 flex flex-col md:flex-row items-center md:items-end justify-between gap-4 md:gap-8 pointer-events-none">
-          <div className="flex items-center gap-4">
-            <img
-              src={LOGO_URL}
-              alt="The Legend Đà Nẵng"
-              className="w-16 h-16 md:w-24 md:h-24 rounded-2xl object-contain bg-royal-950 ring-2 ring-gold-400 shadow-gold"
-            />
-            <div className="text-white">
-              <p className="font-display text-xl md:text-3xl font-bold text-gradient-gold">
-                THE LEGEND ĐÀ NẴNG
-              </p>
-              <p className="text-xs md:text-sm tracking-widest text-gold-300/90">
-                VIPICO · ROX SIGNATURE
-              </p>
-            </div>
+          <div className="text-white">
+            <p className="font-display text-2xl md:text-4xl font-bold text-gradient-gold tracking-wider">
+              THE LEGEND ĐÀ NẴNG
+            </p>
+            <p className="text-xs md:text-sm tracking-widest text-gold-300/90">
+              VIPICO · ROX SIGNATURE
+            </p>
           </div>
           <p className="max-w-md text-center md:text-right text-sm md:text-base text-white/90 italic">
             "Biểu tượng sống bên sông Hàn — mở cửa là phố, bước ra là biển, lên cao là trời."
