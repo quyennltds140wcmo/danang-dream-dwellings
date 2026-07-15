@@ -2,7 +2,7 @@ import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { SectionTitle } from "./SectionTitle";
 import { LeadForm } from "./LeadForm";
-import { HOTLINE, HOTLINE_TEL, EMAIL, ZALO, LOGO_URL } from "./data";
+import { HOTLINE, HOTLINE_TEL, EMAIL, ZALO } from "./data";
 
 export function Contact() {
   return (
@@ -22,12 +22,7 @@ export function Contact() {
           <div className="rounded-3xl bg-gradient-royal text-white p-8 md:p-10 shadow-luxury relative overflow-hidden">
             <div className="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-gold-500/10 blur-3xl" />
             <div className="relative">
-              <img
-                src={LOGO_URL}
-                alt="The Legend Đà Nẵng"
-                className="w-24 h-24 md:w-32 md:h-32 rounded-2xl object-contain bg-royal-950 ring-2 ring-gold-400 shadow-gold"
-              />
-              <p className="mt-6 text-xs tracking-[0.3em] text-gold-300">NHÀ MẪU ĐÀ NẴNG</p>
+              <p className="text-xs tracking-[0.3em] text-gold-300">NHÀ MẪU ĐÀ NẴNG</p>
               <h3 className="mt-2 font-display text-2xl md:text-3xl font-bold text-gradient-gold">
                 The Legend Đà Nẵng
               </h3>
