@@ -18,14 +18,14 @@ export const ZALO = "https://zalo.me/0973043452";
 export const YT_ID = "YljWgZ00gps";
 
 export const IMG = {
-  hero: "https://danang-dream-homes.lovable.app/assets/hero-tower-CbaN1r1_.jpg",
-  pool: "https://danang-dream-homes.lovable.app/assets/amenity-pool-Cvw3YYhk.jpg",
-  river: "https://danang-dream-homes.lovable.app/assets/view-river-f6LVy1Kk.jpg",
-  beach: "https://danang-dream-homes.lovable.app/assets/view-beach-1aAjtyWx.jpg",
-  interior: "https://danang-dream-homes.lovable.app/assets/interior-living-7EWlhVq3.jpg",
-  progress: "https://danang-dream-homes.lovable.app/assets/progress-site-tA_zE58s.jpg",
-  floorPlan: "https://danang-dream-homes.lovable.app/assets/floor-plan-Czfac-tA.jpg",
-  locationMap: "https://danang-dream-homes.lovable.app/assets/location-map-CUpldE4B.jpg",
+  hero: "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/TL_PV02_Tongthdecaurong_TLGDN-scaled.jpg",
+  pool: "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/tien-ich-the-legend-danang-4-1.png",
+  river: "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/vinh-da-nang-the-legend-city.jpg",
+  beach: "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/bai-bien-da-nang-the-legend-city.png",
+  interior: "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/Scene-21_2-scaled-2.png",
+  progress: "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/the-legend-city-da-nang-20-2048x1293.jpg",
+  floorPlan: "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/TONG-HOP-THONG-TIN-THE-LEGEND-DANANG-ROX-SIGNATURE-8.png",
+  locationMap: "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/vi-tri-the-legend-city-da-nang-2048x1001.jpg",
   csbh1:
     "https://danang-dream-homes.lovable.app/__l5e/assets-v1/6ae25dc4-789e-47d7-9e32-e9cbee2af178/chinh-sach-ban-hang.png",
   csbh2:
@@ -62,57 +62,57 @@ export const IMG = {
   facade:
     "https://thelegendanang.com.vn/wp-content/uploads/2025/10/Screenshot-2025-07-13-214159-1.png",
   landscape:
-    "https://thelegendcity.com/wp-content/uploads/2026/01/tien-ich-tang-tret-the-legend-da-nang-6.png-1.webp",
+    "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/26.jpg",
   landscape2:
-    "https://thelegendcity.com/wp-content/uploads/2026/01/tien-ich-tang-3-the-legend-da-nang-10.png-2.webp",
+    "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/tien-ich-the-legend-danang-7.jpg",
   amenitiesEco:
-    "https://thelegendcity.com/wp-content/uploads/2026/01/Tien-ich-can-ho-Legend-Da-Nang-The-Legend-City-Da-Nang-1.webp",
+    "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/the-legend-city-da-nang-18-scaled.jpg",
   interior3d1:
-    "https://thelegendcity.com/wp-content/uploads/2025/09/Scene-17_3-1-2048x1280-1-1024x640.webp",
+    "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/the-legend-city-da-nang-11-scaled.jpg",
   interior3d2:
-    "https://thelegendcity.com/wp-content/uploads/2025/09/Scene-9_3-2048x1280-1-1024x640.png",
+    "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/the-legend-city-da-nang-13-1-scaled.jpg",
   interior3d3:
-    "https://thelegendcity.com/wp-content/uploads/2025/09/Scene-6_4-2048x1280-1-1024x640.webp",
+    "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/the-legend-city-da-nang-17-scaled.jpg",
   interior3d4:
-    "https://thelegendcity.com/wp-content/uploads/2025/09/z6767535557752_34543d691fe4f1675bd45b337e2c3bb6-1021x1024.webp",
+    "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/the-legend-city-da-nang-20-1-scaled.jpg",
   interior3d5:
-    "https://thelegendcity.com/wp-content/uploads/2025/09/z6858516913261_4a19aca8d1ea9e33a816c32879c76a40-1024x1024.webp",
+    "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/TL_Ani_Shot29_goccheckin.mov_snapshot_00.05_2025.08.12_15.05.32-scaled.jpg",
   interior3d6:
-    "https://thelegendcity.com/wp-content/uploads/2025/09/z6858517063476_1a612f5c83466cf940121d939f184cd2-1024x1024.webp",
+    "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/25.png",
   product1br:
-    "https://thelegendcitydanang.com.vn/wp-content/uploads/2025/03/can-ho-the-legend-city-da-nang-1.jpg",
+    "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/1PN-the-legend-city.png",
   product1brPlus:
-    "https://thelegendcitydanang.com.vn/wp-content/uploads/2025/03/can-ho-the-legend-city-da-nang-2.jpg",
+    "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/2PN1-the-legend-city.jpg",
   product2br:
-    "https://thelegendcitydanang.com.vn/wp-content/uploads/2025/03/can-ho-the-legend-city-da-nang-3.jpg",
+    "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/2PN-the-legend-city.png",
   product3br:
-    "https://thelegendcitydanang.com.vn/wp-content/uploads/2025/03/can-ho-the-legend-city-da-nang-5.jpg",
+    "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/the-legend-city-da-nang-3-scaled.jpg",
   productPenthouse:
-    "https://thelegendcitydanang.com.vn/wp-content/uploads/2025/03/can-ho-the-legend-city-da-nang-6.jpg",
+    "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/the-legend-city-da-nang-1-scaled.jpg",
   csbhBigNew:
     "https://thelegendanang.com.vn/wp-content/uploads/2025/11/CSBH_T10-1-1-2-scaled.jpg",
   hpLandscapeFloor:
-    "https://hungphatres.vn/wp-content/uploads/2025/06/THE-LEGEND-TMB-T5-26-01-01-Large.jpg",
+    "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/TONG-HOP-THONG-TIN-THE-LEGEND-DANANG-ROX-SIGNATURE-9.png",
   hpLandscape1:
-    "https://hungphatres.vn/wp-content/uploads/2025/06/z6764567401805_648329430942a7aa4982a0a0626b07e7.jpg",
+    "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/TONG-HOP-THONG-TIN-THE-LEGEND-DANANG-ROX-SIGNATURE-6.png",
   hpLandscape2:
-    "https://hungphatres.vn/wp-content/uploads/2025/06/z6764564788812_d965a77e1d45bb88d5ed4c75809a9273.jpg",
+    "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/TONG-HOP-THONG-TIN-THE-LEGEND-DANANG-ROX-SIGNATURE-7.png",
   hpLandscape3:
-    "https://hungphatres.vn/wp-content/uploads/2025/06/z6764564105403_4b2c25bc10c3a260142c295a2dd6bee8.jpg",
+    "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/TONG-HOP-THONG-TIN-THE-LEGEND-DANANG-ROX-SIGNATURE-11.png",
   hpLandscape4:
-    "https://hungphatres.vn/wp-content/uploads/2025/06/z6764562157105_c373352ccd54da410d41025f87ed4f18.jpg",
+    "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/2pn-the-legend-city-1.png",
   bedroom1:
-    "https://hungphatres.vn/wp-content/uploads/2025/06/Scene-25_5-Large.jpg",
+    "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/tien-ich-the-legend-danang-2.png",
   bedroom2:
-    "https://hungphatres.vn/wp-content/uploads/2025/06/Scene-26_4-Large.jpg",
+    "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/ba-na-the-legend-city.png",
   bedroom3:
-    "https://hungphatres.vn/wp-content/uploads/2025/06/Scene-50_2-Large.jpg",
+    "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/trung-tam-da-nang-the-legend-city.jpg",
   bedroom4:
-    "https://hungphatres.vn/wp-content/uploads/2025/06/Scene-52-Large.jpg",
+    "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/deo-hai-van-the-legend-city.jpg",
   bedroom5:
-    "https://hungphatres.vn/wp-content/uploads/2025/06/Scene-4_5-Large.jpg",
+    "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/cau-rong-the-legend-city.png",
   bedroom6:
-    "https://hungphatres.vn/wp-content/uploads/2025/06/Scene-43_1-Large.jpg",
+    "https://thelegend-tlgdn.com/wp-content/uploads/2025/12/san-bay-da-nang-the-legend-city.jpg",
 };
 
 export const DOCS = {
