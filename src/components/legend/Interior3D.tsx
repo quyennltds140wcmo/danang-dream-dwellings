@@ -3,18 +3,18 @@ import { IMG } from "./data";
 import { Reveal } from "./Reveal";
 
 const shots = [
-  { src: IMG.interior3d1, alt: "Phòng khách căn hộ mẫu The Legend Đà Nẵng" },
-  { src: IMG.interior3d2, alt: "Phòng ngủ master The Legend Đà Nẵng" },
-  { src: IMG.interior3d3, alt: "Không gian bếp & dining The Legend Đà Nẵng" },
-  { src: IMG.interior3d4, alt: "Chi tiết nội thất căn hộ mẫu" },
-  { src: IMG.interior3d5, alt: "Phòng ngủ view sông Hàn" },
-  { src: IMG.interior3d6, alt: "Phòng tắm cao cấp The Legend" },
-  { src: IMG.bedroom1, alt: "Phòng ngủ 1 — căn 1PN The Legend Đà Nẵng" },
-  { src: IMG.bedroom2, alt: "Phòng ngủ master — căn 1PN view sông Hàn" },
-  { src: IMG.bedroom3, alt: "Phòng ngủ ấm cúng — căn 1PN The Legend" },
-  { src: IMG.bedroom4, alt: "Phòng ngủ cao cấp — căn 1PN The Legend" },
-  { src: IMG.bedroom5, alt: "Phòng ngủ master — căn 2PN The Legend" },
-  { src: IMG.bedroom6, alt: "Phòng ngủ phụ — căn 2PN The Legend Đà Nẵng" },
+  { src: IMG.interior3d3, alt: "Sân thượng toà tháp" },
+  { src: IMG.interior3d2, alt: "Ban công hướng ra sông Hàn" },
+  { src: IMG.interior3d1, alt: "Ban công căn hộ" },
+  { src: IMG.interior3d4, alt: "Bên ngoài toà tháp" },
+  { src: IMG.interior3d5, alt: "Tầng thượng" },
+  { src: IMG.interior3d6, alt: "Khuôn viên bên trong" },
+  { src: IMG.bedroom1, alt: "Khu vui chơi dành cho trẻ em" },
+  { src: IMG.bedroom2, alt: "Nơi giao thoa văn hoa" },
+  { src: IMG.bedroom3, alt: "Cảnh sông Hàn về đêm" },
+  { src: IMG.bedroom4, alt: "Cách Hải Vân Quan chỉ 15km" },
+  { src: IMG.bedroom5, alt: "Khung cảnh cầu Rồng" },
+  { src: IMG.bedroom6, alt: "Chỉ 5 phút đến sân bay" },
 ];
 
 export function Interior3D() {
