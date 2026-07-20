@@ -80,7 +80,14 @@ export function LeadForm({
         Số lượng căn có hạn — hãy đăng ký để chọn được căn giá tốt nhất, tầng đẹp nhất.
       </p>
 
-      <form onSubmit={submit} className="mt-6 grid sm:grid-cols-2 gap-4">
+      <form
+        name="contact"
+        data-netlify="true"
+        netlify
+        onSubmit={submit}
+        className="mt-6 grid sm:grid-cols-2 gap-4"
+      >
+        <input type="hidden" name="form-name" value="contact" />
         <div>
           <Label htmlFor={`${id}-name`} className={dark ? "text-white/90" : ""}>
             Họ và tên
