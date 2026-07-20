@@ -83,7 +83,6 @@ export function LeadForm({
       <form
         name="contact"
         data-netlify="true"
-        netlify
         onSubmit={submit}
         className="mt-6 grid sm:grid-cols-2 gap-4"
       >
