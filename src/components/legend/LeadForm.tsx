@@ -53,12 +53,12 @@ export function LeadForm({
       /* ignore */
     }
     try {
-      await fetch("/", {
+      await fetch("https://api.web3forms.com/submit", {
         method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({
-          "form-name": "register-legend-danang",
-          "bot-field": "",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          access_key: 8769133f-9a02-4627-8484-a00838fed604,
+          subject: "Đăng ký nhận thông tin The Legend Đà Nẵng",
           fullname: name,
           phone,
           demand: need,
