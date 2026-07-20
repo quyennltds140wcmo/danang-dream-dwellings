@@ -28,7 +28,12 @@ export function LeadForm({
 
   const dark = variant === "dark";
 
-  const submit = (e: React.FormEvent) => {
+  const encode = (data: Record<string, string>) =>
+    Object.keys(data)
+      .map((k) => encodeURIComponent(k) + "=" + encodeURIComponent(data[k]))
+      .join("&");
+
+  const submit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (name.trim().length < 2) return toast.error("Vui lòng nhập họ tên");
     if (!PHONE_RE.test(phone.replace(/\s|\./g, "")))
@@ -47,14 +52,31 @@ export function LeadForm({
     } catch {
       /* ignore */
     }
-    setTimeout(() => {
-      setLoading(false);
-      toast.success("Đã gửi thông tin! CVKD sẽ liên hệ trong 15 phút.");
+    try {
+      await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: encode({
+          "form-name": "register-legend-danang",
+          "bot-field": "",
+          fullname: name,
+          phone,
+          demand: need,
+          apartment_type: type,
+        }),
+      });
+      toast.success(
+        "Cảm ơn bạn! Đăng ký nhận thông tin dự án The Legend Đà Nẵng thành công. Chúng tôi sẽ liên hệ lại sớm nhất."
+      );
       setName("");
       setPhone("");
       setNeed("");
       setType("");
-    }, 400);
+    } catch {
+      toast.error("Gửi thất bại, vui lòng thử lại.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -81,18 +103,28 @@ export function LeadForm({
       </p>
 
       <form
-        name="contact"
+        name="register-legend-danang"
+        method="POST"
         data-netlify="true"
+        data-netlify-honeypot="bot-field"
         onSubmit={submit}
         className="mt-6 grid sm:grid-cols-2 gap-4"
       >
-        <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="form-name" value="register-legend-danang" />
+        <p className="hidden">
+          <label>
+            Bỏ qua: <input name="bot-field" />
+          </label>
+        </p>
         <div>
           <Label htmlFor={`${id}-name`} className={dark ? "text-white/90" : ""}>
             Họ và tên
           </Label>
           <Input
             id={`${id}-name`}
+            name="fullname"
+            type="text"
+            required
             value={name}
             onChange={(e) => setName(e.target.value)}
             placeholder="Nguyễn Văn A"
@@ -105,6 +137,9 @@ export function LeadForm({
           </Label>
           <Input
             id={`${id}-phone`}
+            name="phone"
+            type="tel"
+            required
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
             placeholder="0973 043 452"
@@ -113,6 +148,7 @@ export function LeadForm({
         </div>
         <div>
           <Label className={dark ? "text-white/90" : ""}>Nhu cầu</Label>
+          <input type="hidden" name="demand" value={need} />
           <Select value={need} onValueChange={setNeed}>
             <SelectTrigger
               className={dark ? "bg-white/10 border-white/20 text-white" : ""}
@@ -120,14 +156,15 @@ export function LeadForm({
               <SelectValue placeholder="Chọn nhu cầu" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="o">Để ở</SelectItem>
-              <SelectItem value="dt">Đầu tư</SelectItem>
-              <SelectItem value="ct">Cho thuê</SelectItem>
+              <SelectItem value="Để ở">Để ở</SelectItem>
+              <SelectItem value="Đầu tư">Đầu tư</SelectItem>
+              <SelectItem value="Cho thuê">Cho thuê</SelectItem>
             </SelectContent>
           </Select>
         </div>
         <div>
           <Label className={dark ? "text-white/90" : ""}>Loại căn quan tâm</Label>
+          <input type="hidden" name="apartment_type" value={type} />
           <Select value={type} onValueChange={setType}>
             <SelectTrigger
               className={dark ? "bg-white/10 border-white/20 text-white" : ""}
@@ -135,12 +172,12 @@ export function LeadForm({
               <SelectValue placeholder="Chọn loại căn" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="1pn">1 phòng ngủ</SelectItem>
-              <SelectItem value="1pn1">1 phòng ngủ + 1</SelectItem>
-              <SelectItem value="2pn">2 phòng ngủ</SelectItem>
-              <SelectItem value="3pn">3 phòng ngủ</SelectItem>
-              <SelectItem value="ph">Penthouse</SelectItem>
-              <SelectItem value="chd">Căn hộ dịch vụ</SelectItem>
+              <SelectItem value="1 phòng ngủ">1 phòng ngủ</SelectItem>
+              <SelectItem value="1 phòng ngủ + 1">1 phòng ngủ + 1</SelectItem>
+              <SelectItem value="2 phòng ngủ">2 phòng ngủ</SelectItem>
+              <SelectItem value="3 phòng ngủ">3 phòng ngủ</SelectItem>
+              <SelectItem value="Penthouse">Penthouse</SelectItem>
+              <SelectItem value="Căn hộ dịch vụ">Căn hộ dịch vụ</SelectItem>
             </SelectContent>
           </Select>
         </div>
